@@ -29,9 +29,8 @@
 ## Quick start
 
 **Read on GitHub**
-1. Start with [`00 START HERE.md`](START%20HERE.md).
-2. Take the [Placement Test](01%20Roadmap/Placement%20Test.md) to find your level.
-3. Follow the [10-Level Roadmap](01%20Roadmap/10-Level%20Roadmap.md) or the [30-Day Plan](01%20Roadmap/30-Day%20Plan.md).
+1. Take the [Placement Test](01%20Roadmap/Placement%20Test.md) to find your level.
+2. Follow the [10-Level Roadmap](01%20Roadmap/10-Level%20Roadmap.md) or the [30-Day Plan](01%20Roadmap/30-Day%20Plan.md).
 
 **Use in Obsidian (recommended)**
 ```bash
