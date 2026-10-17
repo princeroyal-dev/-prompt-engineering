@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"start","type":"text","text":"# 📍 TUM YAHAN HO\n**Level 1–2 of 10**\n\nPehle Placement Test, phir Level 2 se asli kaam shuru.\n\nHer level ka note neeche click karke kholo.","x":0,"y":-300,"width":460,"height":220,"color":"3"},
+		{"id":"n1","type":"file","file":"02 Course/Level 01 - Foundations.md","x":0,"y":0,"width":380,"height":300,"color":"3"},
+		{"id":"n2","type":"file","file":"02 Course/Level 02 - Clarity and Specificity.md","x":440,"y":0,"width":380,"height":300,"color":"3"},
+		{"id":"n3","type":"file","file":"02 Course/Level 03 - Role Context and Format.md","x":880,"y":0,"width":380,"height":300,"color":"5"},
+		{"id":"n4","type":"file","file":"02 Course/Level 04 - Examples and Structure.md","x":1320,"y":0,"width":380,"height":300,"color":"5"},
+		{"id":"n5","type":"file","file":"02 Course/Level 05 - Reasoning and Thinking.md","x":1760,"y":0,"width":380,"height":300,"color":"5"},
+		{"id":"n6","type":"file","file":"02 Course/Level 06 - Reliability and Hallucinations.md","x":1760,"y":400,"width":380,"height":300,"color":"6"},
+		{"id":"n7","type":"file","file":"02 Course/Level 07 - Chaining and Complex Tasks.md","x":1320,"y":400,"width":380,"height":300,"color":"6"},
+		{"id":"n8","type":"file","file":"02 Course/Level 08 - System Prompts and Apps.md","x":880,"y":400,"width":380,"height":300,"color":"6"},
+		{"id":"n9","type":"file","file":"02 Course/Level 09 - Evals and Testing.md","x":440,"y":400,"width":380,"height":300,"color":"1"},
+		{"id":"n10","type":"file","file":"02 Course/Level 10 - Agents Context and Safety.md","x":0,"y":400,"width":380,"height":300,"color":"1"},
+		{"id":"g1","type":"group","label":"Toolbox: har level mein use karo","x":-40,"y":780,"width":1840,"height":440},
+		{"id":"r1","type":"file","file":"03 Prompt Book/Prompt Book Index.md","x":0,"y":840,"width":380,"height":300},
+		{"id":"r2","type":"file","file":"04 Resources/GitHub Top Resources.md","x":440,"y":840,"width":380,"height":300},
+		{"id":"r3","type":"file","file":"03 Prompt Book/Cheat Sheet.md","x":880,"y":840,"width":380,"height":300},
+		{"id":"r4","type":"file","file":"01 Roadmap/My Progress.md","x":1320,"y":840,"width":380,"height":300}
+	],
+	"edges":[
+		{"id":"es","fromNode":"start","fromSide":"bottom","toNode":"n1","toSide":"top"},
+		{"id":"e1","fromNode":"n1","fromSide":"right","toNode":"n2","toSide":"left","label":"basics"},
+		{"id":"e2","fromNode":"n2","fromSide":"right","toNode":"n3","toSide":"left"},
+		{"id":"e3","fromNode":"n3","fromSide":"right","toNode":"n4","toSide":"left"},
+		{"id":"e4","fromNode":"n4","fromSide":"right","toNode":"n5","toSide":"left"},
+		{"id":"e5","fromNode":"n5","fromSide":"bottom","toNode":"n6","toSide":"top","label":"reliability"},
+		{"id":"e6","fromNode":"n6","fromSide":"left","toNode":"n7","toSide":"right"},
+		{"id":"e7","fromNode":"n7","fromSide":"left","toNode":"n8","toSide":"right"},
+		{"id":"e8","fromNode":"n8","fromSide":"left","toNode":"n9","toSide":"right"},
+		{"id":"e9","fromNode":"n9","fromSide":"left","toNode":"n10","toSide":"right","label":"pro"}
+	]
+}
